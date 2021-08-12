@@ -1,0 +1,27 @@
+body {
+  background: #e8faff;
+}
+
+.container {
+  background: #0000;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.icon-container {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon-container > .logo-container {
+  padding: 2rem 2.4rem;
+  border-radius: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.icon-container > .logo-container {
+    background: #FFFF;
+  box-shadow: -24px -24px 24px 0 rgba(255, 255, 255, 0.6), 24px 24px 24px 0 rgba(0, 0, 0, 0.03);
+  transform: scale(1.05);
+}
